@@ -7,9 +7,16 @@ int main()
     {
         for(j=1; j<=i; j++)
         {
-            printf("*");
+            if(j<=n-i)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
         }
-    printf(" ");
+    printf("\n");
     }
 return 0;
 }
