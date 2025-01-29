@@ -9,11 +9,11 @@ int main()
         {
             if(j<=n-i)
             {
-                printf("*");
+                printf(" ");
             }
             else
             {
-                printf(" ");
+                printf("*");
             }
         }
     printf("\n");
