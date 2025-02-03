@@ -7,9 +7,13 @@ int main()
     {
         printf("Lowercase");
     }
-    else
+    else if('A'<='Z')
     {
         printf("Uppercase");
+    }
+    else
+    {
+        printf("Not Valid");
     }
 return 0;
 }
