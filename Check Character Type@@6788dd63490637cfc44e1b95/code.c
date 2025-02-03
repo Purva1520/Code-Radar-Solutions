@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    char a,vowels='aeiou';
+    char a;
     scanf("%c",&a);
-    if(a=='vowels')
+    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
     {
         printf("Vowel");
     }
-    else if((a>='a' && a<='z') - vowels||(a>='A' && a<='Z')-vowels)
+    else if((a>='a' && a<='z') ||(a>='A' && a<='Z'))
     {
         printf("Consonant");
     }
