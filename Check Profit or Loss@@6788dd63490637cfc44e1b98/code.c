@@ -9,7 +9,7 @@ int main()
     }
     else if(cp>sp)
     {
-        printf("loss");
+        printf("Loss");
     }
     else
     {
