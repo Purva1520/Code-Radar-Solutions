@@ -7,12 +7,12 @@ int main()
     {
         case '+':
         sum=a+b;
-        print("%d",sum);
+        printf("%d",sum);
         break;
 
         case '-':
         diff=a-b;
-        print("%d",diff);
+        printf("%d",diff);
         break;
 
         case'/':
