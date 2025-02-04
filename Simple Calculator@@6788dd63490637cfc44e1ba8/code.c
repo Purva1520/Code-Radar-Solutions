@@ -5,22 +5,22 @@ int main()
     scanf("%d %d %c",&a,&b,&o);
     switch(o)
     {
-        case '+';
+        case '+':
         sum=a+b;
         print("%d",sum);
         break;
 
-        case '-';
+        case '-':
         diff=a-b;
         print("%d",diff);
         break;
 
-        case'/';
+        case'/':
         div=a/b;
         printf("%d",div);
         break;
 
-        case '*';
+        case '*':
         mul=a*b;
         printf("%d",mul);
         break;
