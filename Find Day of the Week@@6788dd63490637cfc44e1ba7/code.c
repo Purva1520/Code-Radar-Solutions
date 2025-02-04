@@ -9,7 +9,7 @@ int main()
     }
     else if(n==2)
     {
-        printf("Tuesday")''
+        printf("Tuesday");
     }
     else if(n==3)
     {
