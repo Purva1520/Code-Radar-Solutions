@@ -23,6 +23,9 @@ int main()
            {div=a/b;
         printf("%d",div);
         break;}
+        else
+        {printf("error");
+        break;}
 
     case '*':
         mul=a*b;
