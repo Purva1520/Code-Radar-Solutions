@@ -2,7 +2,7 @@
 int main()
 {
     int a,o,b,sum,diff,div,mul;
-    scanf("%d %d %c",&a,&b &o);
+    scanf("%d %d %c",&a,&b, &o);
     switch(o)
     {
         case '+':
