@@ -5,7 +5,7 @@ int main()
     scanf("%d %d",&cp,&sp);
     if(sp>cp)
     {
-        printf("profit");
+        printf("Profit");
     }
     else if(cp>sp)
     {
