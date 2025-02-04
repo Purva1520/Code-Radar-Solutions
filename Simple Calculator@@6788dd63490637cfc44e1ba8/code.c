@@ -6,27 +6,27 @@ int main()
     switch(o)
     {
         case '+':
-        sum=a+b;
+        {sum=a+b;
         printf("%d",sum);
         break;
-
+        }
         case '-':
-        diff=a-b;
+       { diff=a-b;
         printf("%d",diff);
-        break;
+        break;}
 
         case'/':
-        div=a/b;
+       { div=a/b;
         printf("%d",div);
         break;
-
+       }
         case '*':
-        mul=a*b;
+       { mul=a*b;
         printf("%d",mul);
         break;
-
+       }
         default:
-        printf("Error");
-    }
+        {printf("Error");
+    }}
 return 0;
 }
