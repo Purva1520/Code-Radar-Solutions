@@ -20,9 +20,9 @@ int main()
 
     case '/':
     if(b!=0)
-           div=a/b;
+           {div=a/b;
         printf("%d",div);
-        break;
+        break;}
 
     case '*':
         mul=a*b;
