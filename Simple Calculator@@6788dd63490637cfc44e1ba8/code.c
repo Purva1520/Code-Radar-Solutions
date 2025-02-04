@@ -8,12 +8,12 @@ int main()
 
     switch(o)
     {
-        case '+':
+        case'+':
         sum=a+b;
         printf("%d",sum);
         break;
 
-        case '-':
+        case'-':
         diff=a-b;
         printf("%d",diff);
         break;
