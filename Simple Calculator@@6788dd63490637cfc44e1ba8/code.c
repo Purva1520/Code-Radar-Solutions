@@ -24,6 +24,9 @@ int main()
         mul=a*b;
         printf("%d",mul);
         break;
+
+        default:
+        printf("Error");
     }
 return 0;
 }
