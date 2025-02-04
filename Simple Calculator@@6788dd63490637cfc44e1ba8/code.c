@@ -19,8 +19,8 @@ int main()
         break;
 
     case '/':
-    if(b)
-        div=a/b;
+    if(b!=0)
+           div=a/b;
         printf("%d",div);
         break;
 
