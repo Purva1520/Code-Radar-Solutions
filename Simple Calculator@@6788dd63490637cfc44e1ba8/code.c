@@ -8,27 +8,27 @@ int main()
 
     switch(o)
     {
-        case'+':
+    case'+':
         sum=a+b;
         printf("%d",sum);
         break;
 
-        case'-':
+    case'-':
         diff=a-b;
         printf("%d",diff);
         break;
 
-        case'/':
+    case'/':
         div=a/b;
         printf("%d",div);
         break;
 
-        case '*':
+    case '*':
         mul=a*b;
         printf("%d",mul);
         break;
 
-        default:
+    default:
         printf("error");
     }
 return 0;
