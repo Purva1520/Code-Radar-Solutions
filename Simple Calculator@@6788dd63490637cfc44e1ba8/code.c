@@ -3,7 +3,8 @@ int main()
 {
     int a,b,sum,diff,div,mul;
     char o;
-    scanf("%d %d",&a,&b %o);
+    scanf("%d %d",&a,&b);
+    scanf("%c", &o);
 
     switch(o)
     {
