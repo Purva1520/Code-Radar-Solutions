@@ -7,13 +7,13 @@ int main()
     switch(o)
     {
         case '+':
-        {sum=a+b;
-        printf("%d",sum);
+        {//sum=a+b;
+        printf("%d",a+b);
         break;
         }
         case '-':
-       { diff=a-b;
-        printf("%d",diff);
+       { //diff=a-b;
+        printf("%d",a-b);
         break;}
 
         case '/':
