@@ -3,7 +3,7 @@ int main()
 {
     int a,o,b,sum,diff,div,mul;
     scanf("%d %d %c",&a,&b, &o);
-    if(a>0&&b>>0)
+    
     {switch(o)
     {
         case '+':
@@ -16,7 +16,7 @@ int main()
         printf("%d",diff);
         break;}
 
-        case'/':
+        case '/':
        { div=a/b;
         printf("%d",div);
         break;
@@ -28,6 +28,6 @@ int main()
        }
         default:
         {printf("error");
-    }}}
+    }}
 return 0;
 }
