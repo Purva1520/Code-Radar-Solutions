@@ -7,7 +7,7 @@ int main()
     {
         printf("Excellent");
     }
-    else if(g=="B");
+    else if(g=="B")
     {
         printf("Good");
     }
