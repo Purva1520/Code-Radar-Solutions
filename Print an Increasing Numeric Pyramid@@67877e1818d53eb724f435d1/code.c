@@ -2,7 +2,7 @@
 int main()
 {
     int i,j,k,n,num=1;
-    scanf("%d",n);
+    scanf("%d",&n);
     for(i=1; i<=n; i++)
     {
         for(j=1; j<=n-i; j++)
@@ -14,7 +14,7 @@ int main()
             printf("%d ",num);
             num++;
         }
-        printf("\n");
+    printf("\n");
     }
 return 0;
 }
