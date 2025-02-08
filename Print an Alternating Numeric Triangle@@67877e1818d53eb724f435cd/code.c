@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i,j,n;
+    int i,j,n,num=1;
     scanf("%d",&n);
     for(i=1; i<=n; i++)
     {
@@ -14,7 +14,7 @@ int main()
             }
             else
             {
-                printf("0 ");
+                printf("%0 ");
                 num=1;
             }
         }
