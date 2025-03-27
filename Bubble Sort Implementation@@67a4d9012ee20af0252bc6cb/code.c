@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void sort {
     int arr[5] = {5, 2, 9, 1, 6}; // Array of numbers
     int n = 5;  // Number of elements
     int i, j, temp;
@@ -15,7 +15,7 @@ int main() {
             }
         }
     }
-
+    main sort()
     // Printing the sorted array
     printf("Sorted array: ");
     for (i = 0; i < n; i++) {
