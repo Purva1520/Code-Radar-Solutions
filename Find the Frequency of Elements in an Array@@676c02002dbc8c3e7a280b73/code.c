@@ -6,7 +6,7 @@ int main()
     int a[n],f[n];
     for(i=0; i<n; i++)
     {
-        scanf("%d\n",&a[i]);
+        scanf("%d",&a[i]);
         f[i]=-1;
     }
     for(i=0; i<n; i++)
@@ -23,7 +23,7 @@ int main()
         if(f[i]!=0)
         {
             f[i]=count;
-            printf("%d\t%d\n",a[i],f[i]);
+            printf("%d  %d\n",a[i],f[i]);
         }
     }
 return 0;
