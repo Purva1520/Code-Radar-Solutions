@@ -25,6 +25,6 @@ int main()
             f[i]=count;
             printf("%d\t%d\n",a[i],f[i]);
         }
-    return 0;
     }
+return 0;
 }
