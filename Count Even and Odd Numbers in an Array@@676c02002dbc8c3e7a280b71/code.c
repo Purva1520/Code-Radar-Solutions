@@ -2,22 +2,20 @@
 int main()
 {
     int n;
-    scanf("%d",&n);
-    int a[n],i,count=0;
-    for(i=0; i<n; i++)
+    scanf("%d", &n);
+    int a[n], i, even_count = 0,odd_count=0;
+    for (i = 0; i < n; i++)
     {
-        scanf("%d",a[i]);
+        scanf("%d", &a[i]);
+        if (a[i] % 2 == 0)
+        {
+            even_count++;
+        }
+        else
+        {
+            odd_count ++;
+        }
     }
-    if(a[i]%2==0)
-    {
-        count=count+2;
-        printf("%d",count);
-    }
-    else
-    {
-        count=count+1;
-        printf("%d",count);
-    }
+printf("%d %d", even_count,odd_count);
 return 0;
 }
-
