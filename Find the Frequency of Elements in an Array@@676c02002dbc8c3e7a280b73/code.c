@@ -6,7 +6,7 @@ int main()
     int a[n],f[n];
     for(i=0; i<n; i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%dn",&a[i]);
         f[i]=-1;
     }
     for(i=0; i<n; i++)
