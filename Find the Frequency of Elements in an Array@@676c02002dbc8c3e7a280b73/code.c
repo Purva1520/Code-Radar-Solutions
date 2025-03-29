@@ -23,7 +23,7 @@ int main()
         if(f[i]!=0)
         {
             f[i]=count;
-            printf("%d  %d\n",a[i],f[i]);
+            printf("%d %d\n",a[i],f[i]);
         }
     }
 return 0;
