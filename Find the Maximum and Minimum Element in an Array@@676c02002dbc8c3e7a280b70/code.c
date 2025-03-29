@@ -20,6 +20,6 @@ int main()
             min=a[i];
         }
     }
-printf("%d %d",max,min);
+printf("%d %d",min,max);
 return 0;
 }
