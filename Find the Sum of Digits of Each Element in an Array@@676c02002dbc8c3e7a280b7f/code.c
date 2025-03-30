@@ -7,12 +7,12 @@ int main()
     for(i=0; i<n; i++)
     {
         scanf("%d",&a[i]);
-    }
-    while(n>0)
-    {
-        d=n%10;
-        sum=sum+d;
-        n=n/10;
+        while(n>0)
+        {
+            d=n%10;
+            sum=sum+d;
+            n=n/10;
+        }
     }
 printf("%d",sum);
 return 0;
