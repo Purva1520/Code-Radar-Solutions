@@ -1,46 +1,24 @@
-#include <stdio.h>
-
-// Function to swap two elements
-void swap(int *x, int *y) {
-    int temp = *x;
-    *x = *y;
-    *y = temp;
+void printArray(int* a , int n)
+{
+    
 }
-
-// Function to perform Bubble Sort
-void bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        int swapped = 0; // To optimize if the array is already sorted
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                swap(&arr[j], &arr[j + 1]);
-                swapped = 1;
-            }
+void bubbleSort(int* a , int n)
+{
+    int d,i,c;
+    for(d=0;d<n;d=d+1)
+    {
+    for(i=0;i<n-1;i=i+1)
+    {
+        if(a[i]>a[i+1])
+        {
+            c=a[i+1];
+            a[i+1]=a[i];
+            a[i]=c;
         }
-        if (swapped == 0) // If no swapping happens, the array is already sorted
-            break;
     }
-}
-
-// Function to print the array
-void printArray(int arr[], int n) {
-    for (int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
-}
-
-// Main function
-int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Original array: ");
-    printArray(arr, n);
-
-    bubbleSort(arr, n);
-
-    printf("Sorted array: ");
-    printArray(arr, n);
-
-    return 0;
+    }
+    for(i=0;i<n;i=i+1)
+    {
+        printf("%d ",a[i]);
+    }
 }
