@@ -9,4 +9,3 @@ void fibonacciSeries(int n)
         b=c;
     }
 }
-20
