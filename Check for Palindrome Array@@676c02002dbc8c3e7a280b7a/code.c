@@ -18,11 +18,11 @@ int main()
     }
     if (p) 
     {
-        printf("Yes");
+        printf("YES");
     } 
     else 
     {
-        printf("No");
+        printf("N0");
     }
  return 0;
 }
