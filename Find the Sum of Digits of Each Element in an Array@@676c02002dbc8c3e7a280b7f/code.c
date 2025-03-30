@@ -12,6 +12,10 @@ int main()
     {
         int num = a[i];
         sum = 0;
+        if(num<0)
+        {
+            num=-num;
+        }
         while(num>0)
         {
             d=num%10;
