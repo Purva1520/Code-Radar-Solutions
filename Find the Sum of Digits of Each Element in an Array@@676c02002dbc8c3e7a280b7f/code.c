@@ -18,7 +18,7 @@ int main()
             sum=sum+d;
             num=num/10;
         }
+        printf("%d",sum);
     }
-printf("%d",sum);
 return 0;
 }
