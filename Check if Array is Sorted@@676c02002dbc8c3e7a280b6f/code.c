@@ -7,9 +7,10 @@ int main()
     for(i=0; i<n; i++)
     {
         scanf("%d",&a[i]);
-        if(a[i]>=a[i+1])
+        if(a[i]>a[i+1])
         {
             isSorted=0;
+            break;
         }
     }
     if(isSorted)
