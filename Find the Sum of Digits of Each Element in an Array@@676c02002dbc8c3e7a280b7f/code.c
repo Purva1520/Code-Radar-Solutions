@@ -12,7 +12,7 @@ int main()
     {
         int num = a[i];
         sum = 0;
-        while(n>0)
+        while(num>0)
         {
             d=num%10;
             sum=sum+d;
