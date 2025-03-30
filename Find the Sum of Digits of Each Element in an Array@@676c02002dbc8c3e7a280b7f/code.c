@@ -19,6 +19,6 @@ int main()
             num=num/10;
         }
     }
-printf("%d",sum);
+printf("%d %d",a[i],sum);
 return 0;
 }
