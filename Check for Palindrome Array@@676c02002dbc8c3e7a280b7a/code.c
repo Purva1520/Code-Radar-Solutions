@@ -16,7 +16,6 @@ int main()
             break;
         }
     }
-    printf("%d",a[i]);
     if (p) 
     {
         printf("YES");
